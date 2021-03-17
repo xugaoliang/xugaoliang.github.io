@@ -1,0 +1,291 @@
+<!DOCTYPE html><html lang="zh-CN" mode="dark" ><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="pv-cache-enabled" content="false"><meta name="generator" content="Jekyll v4.2.0" /><meta property="og:title" content="Markdown 语法参考" /><meta name="author" content="徐高亮" /><meta property="og:locale" content="zh_CN" /><meta name="description" content="前言" /><meta property="og:description" content="前言" /><link rel="canonical" href="https://xugaoliang.github.io/posts/Markdown%E8%AF%AD%E6%B3%95/" /><meta property="og:url" content="https://xugaoliang.github.io/posts/Markdown%E8%AF%AD%E6%B3%95/" /><meta property="og:site_name" content="徐高亮" /><meta property="og:type" content="article" /><meta property="article:published_time" content="2019-11-16T22:23:00+08:00" /><meta name="twitter:card" content="summary" /><meta property="twitter:title" content="Markdown 语法参考" /><meta name="twitter:site" content="@twitter_username" /><meta name="twitter:creator" content="@徐高亮" /><meta name="google-site-verification" content="google_meta_tag_verification" /> <script type="application/ld+json"> {"headline":"Markdown 语法参考","dateModified":"2019-11-16T22:23:00+08:00","description":"前言","datePublished":"2019-11-16T22:23:00+08:00","url":"https://xugaoliang.github.io/posts/Markdown%E8%AF%AD%E6%B3%95/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://xugaoliang.github.io/posts/Markdown%E8%AF%AD%E6%B3%95/"},"author":{"@type":"Person","name":"徐高亮"},"@context":"https://schema.org"}</script><title>Markdown 语法参考 | 徐高亮</title><link rel="shortcut icon" href="/assets/img/favicons/favicon.ico" type="image/x-icon"><link rel="icon" href="/assets/img/favicons/favicon.ico" type="image/x-icon"><link rel="apple-touch-icon" href="/assets/img/favicons/apple-icon.png"><link rel="apple-touch-icon" href="/assets/img/favicons/apple-icon-precomposed.png"><link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicons/apple-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicons/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicons/apple-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicons/apple-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicons/apple-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicons/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicons/apple-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicons/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicons/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicons/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png"><link rel="manifest" href="/assets/img/favicons/manifest.json"><meta name='msapplication-config' content='/assets/img/favicons/browserconfig.xml'><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-TileImage" content="/assets/img/favicons/ms-icon-144x144.png"><meta name="theme-color" content="#ffffff"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"><link rel="dns-prefetch" href="https://fonts.gstatic.com"><link rel="preconnect" href="https://www.google-analytics.com" crossorigin="use-credentials"><link rel="dns-prefetch" href="https://www.google-analytics.com"><link rel="preconnect" href="https://www.googletagmanager.com" crossorigin="anonymous"><link rel="dns-prefetch" href="https://www.googletagmanager.com"><link rel="preconnect" href="cdn.jsdelivr.net"><link rel="dns-prefetch" href="cdn.jsdelivr.net"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha256-LA89z+k9fjgMKQ/kq4OO2Mrf8VltYml/VES+Rg0fh20=" crossorigin="anonymous"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.css"> <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script> <script defer src="https://cdn.jsdelivr.net/combine/npm/popper.js@1.15.0,npm/bootstrap@4/dist/js/bootstrap.min.js"></script> <script defer src="/assets/js/dist/post.min.js"></script> <script> MathJax = { tex: { inlineMath: [ ['$', '$'], ['\\(', '\\)'] ], displayMath: [ ['$$', '$$'], ['\\[', '\\]'] ] } }; </script> <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script> <script defer src="/app.js"></script> <script defer src="https://www.googletagmanager.com/gtag/js?id="></script> <script> document.addEventListener("DOMContentLoaded", function(event) { window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', ''); }); </script><body data-spy="scroll" data-target="#toc"><div id="sidebar" class="d-flex flex-column align-items-end"><div class="profile-wrapper text-center"><div id="avatar"> <a href="/" alt="avatar" class="mx-auto"> <img src="https://avatars.githubusercontent.com/u/9064102?s=400&u=0563a9221845bbfd4cdde7c9c5a876194f32cf1f&v=4" alt="avatar" onerror="this.style.display='none'"> </a></div><div class="site-title mt-3"> <a href="/">徐高亮</a></div><div class="site-subtitle font-italic">成就他人,丰盈自己</div></div><ul class="w-100"><li class="nav-item"> <a href="/" class="nav-link"> <i class="fa-fw fas fa-home ml-xl-3 mr-xl-3 unloaded"></i> <span>主页</span> </a><li class="nav-item"> <a href="/categories/" class="nav-link"> <i class="fa-fw fas fa-stream ml-xl-3 mr-xl-3 unloaded"></i> <span>类别</span> </a><li class="nav-item"> <a href="/tags/" class="nav-link"> <i class="fa-fw fas fa-tags ml-xl-3 mr-xl-3 unloaded"></i> <span>标签</span> </a><li class="nav-item"> <a href="/archives/" class="nav-link"> <i class="fa-fw fas fa-archive ml-xl-3 mr-xl-3 unloaded"></i> <span>归档</span> </a><li class="nav-item"> <a href="/about/" class="nav-link"> <i class="fa-fw fas fa-info ml-xl-3 mr-xl-3 unloaded"></i> <span>关于</span> </a></ul><div class="sidebar-bottom mt-auto d-flex flex-wrap justify-content-center"> <a href="https://github.com/xugaoliang" aria-label="github" target="_blank" rel="noopener"> <i class="fab fa-github-alt"></i> </a> <a href="https://twitter.com/twitter_username" aria-label="twitter" target="_blank" rel="noopener"> <i class="fab fa-twitter"></i> </a> <a href=" javascript:location.href = 'mailto:' + ['08oucxgl','163.com'].join('@')" aria-label="email" > <i class="fas fa-envelope"></i> </a> <a href="/feed.xml" aria-label="rss" > <i class="fas fa-rss"></i> </a></div></div><div id="topbar-wrapper" class="row justify-content-center topbar-down"><div id="topbar" class="col-11 d-flex h-100 align-items-center justify-content-between"> <span id="breadcrumb"> <span> <a href="/"> Posts </a> </span> <span>Markdown 语法参考</span> </span> <i id="sidebar-trigger" class="fas fa-bars fa-fw"></i><div id="topbar-title"> Post</div><i id="search-trigger" class="fas fa-search fa-fw"></i> <span id="search-wrapper" class="align-items-center"> <i class="fas fa-search fa-fw"></i> <input class="form-control" id="search-input" type="search" aria-label="search" placeholder="Search..."> <i class="fa fa-times-circle fa-fw" id="search-cleaner"></i> </span> <span id="search-cancel" >Cancel</span></div></div><div id="main-wrapper"><div id="main"><div class="row"><div id="post-wrapper" class="col-12 col-lg-11 col-xl-8"><div class="post pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-4 pr-md-4"><h1 data-toc-skip>Markdown 语法参考</h1><div class="post-meta text-muted d-flex flex-column"><div> <span class="semi-bold"> 徐高亮 </span> <span class="timeago " data-toggle="tooltip" data-placement="bottom" title="Sat, Nov 16, 2019, 10:23 PM +0800" prep="on" > Nov 16, 2019 <i class="unloaded">2019-11-16T22:23:00+08:00</i> </span></div><div> <span class="readtime" data-toggle="tooltip" data-placement="bottom" title="2217 words">12 min</span></div></div><div class="post-content"><h2 id="前言">前言</h2><p><code class="language-plaintext highlighter-rouge">Markdown</code> 语法有原生的和各种扩展的语法，有些扩展与原生的也并非完全兼容。大部分情况下没问题，个别时候显示与预期会有出入。我主要用于在 <code class="language-plaintext highlighter-rouge">GitHub</code> 上写 <code class="language-plaintext highlighter-rouge">Markdown</code>。<code class="language-plaintext highlighter-rouge">GitHub Flavored Markdown</code> 是 GitHub 官网对 Markdown 做的一些扩展。我经常需要书写数学公式，<code class="language-plaintext highlighter-rouge">kramdown</code> 转换器对此有所支持。在常用的 Markdown 编辑器中，其实不用考虑这些，大部分常用的扩展都是支持的，比如表格对齐，数学公式等。</p><blockquote><p>kramdown（不是 kramdown 或 KramDown，仅仅是 kramdown ）是 MIT 许可的免费 Ruby 库，用于解析和转换 Markdown 的超集。它完全用 Ruby 编写，支持标准 Markdown（进行了一些小的修改）以及 PHP Markdown Extra 软件包和 Maruku 流行的各种扩展。 kramdown 支持使用各种数学引擎。默认的数学引擎是 MathJax（也可以与KaTeX一起使用 ）。 <a href="https://www.mathjax.org/">MathJax</a> 是一个JavaScript库，使用TeX算法和字体在HTML页面上显示数学公式。它允许进行非常细粒度的配置，被广泛使用，并且可以在所有现代浏览器上使用。 如果您编写自己的HTML（直接或通过模板/主题引擎），则可以通过将以下代码段添加到页面中来引入<code class="language-plaintext highlighter-rouge">MathJax</code>：</p></blockquote><div class="language-js highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre><td class="rouge-code"><pre><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="dl">"</span><span class="s2">https://polyfill.io/v3/polyfill.min.js?features=es6</span><span class="dl">"</span><span class="o">&gt;&lt;</span><span class="sr">/script</span><span class="err">&gt;
+</span><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">id</span><span class="o">=</span><span class="dl">"</span><span class="s2">MathJax-script</span><span class="dl">"</span> <span class="k">async</span> <span class="nx">src</span><span class="o">=</span><span class="dl">"</span><span class="s2">https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js</span><span class="dl">"</span><span class="o">&gt;&lt;</span><span class="sr">/script</span><span class="err">&gt;
+</span></pre></table></code></div></div><p>具体操作见<a href="https://www.mathjax.org/#gettingstarted">MathJax官网</a></p><blockquote><p>TeX是由Donald Knuth创建的排版计算机程序，最初是为他的大作《The Art of Computer Programming》撰写的。它获取一个 “plain” 文本文件，并将其转换为高质量文档，以供打印或在屏幕上查看。<code class="language-plaintext highlighter-rouge">LaTeX</code> 是构建在 <code class="language-plaintext highlighter-rouge">TeX</code> 之上的宏系统(macro system)，旨在简化其使用并自动执行许多常见的格式化任务。它是学术期刊和书籍的实际标准，并提供了一些最好的自由排版软件。</p></blockquote><p>Markdown 语法规范检测可参看 <a href="https://github.com/DavidAnson/markdownlint/">markdownlint</a>，具体规范列表参看 <a href="https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md">Rules</a></p><p><strong>参考</strong>：</p><ol><li><a href="https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown">GitHub Guides</a><li><a href="https://kramdown.gettalong.org/quickref.html">kramdown 快速参考</a><li><a href="https://www.mathjax.org/">MathJax 官网</a><li><a href="https://docs.mathjax.org/en/latest/index.html">MathJax 文档</a><li><a href="https://en.wikibooks.org/wiki/LaTeX">LaTex</a><li><a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics">LaTex数学</a><li><a href="https://github.com/DavidAnson/markdownlint/">markdownlint</a></ol><h2 id="markdown-语法">Markdown 语法</h2><h3 id="标题">标题</h3><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre><td class="rouge-code"><pre><span class="gh"># 一级标题</span>
+<span class="gu">## 二级标题</span>
+<span class="gu">### 三级标题</span>
+<span class="gu">#### 四级标题</span>
+<span class="gu">##### 五级标题</span>
+<span class="gu">###### 六级标题</span>
+</pre></table></code></div></div><p>没有第七级标题</p><h3 id="强调">强调</h3><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre><td class="rouge-code"><pre><span class="ge">*斜体*</span>
+<span class="ge">_斜体_</span>
+
+<span class="gs">**粗体**</span>
+<span class="gs">__粗体__</span>
+
+<span class="ge">_组合**粗体**及斜体_</span>
+<span class="ge">*组合__粗体__及斜体*</span>
+</pre></table></code></div></div><p><em>斜体</em> <em>斜体</em></p><p><strong>粗体</strong> <strong>粗体</strong></p><p><em>组合<strong>粗体</strong>及斜体</em></p><h3 id="列表">列表</h3><h4 id="无序列表">无序列表</h4><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre><td class="rouge-code"><pre><span class="p">*</span> 项目 1
+<span class="p">*</span> 项目 2
+<span class="p">  *</span> 项目 2a
+<span class="p">  *</span> 项目 2b
+<span class="p">
+-</span> 项目 1
+<span class="p">-</span> 项目 2
+<span class="p">  -</span> 项目 2a
+<span class="p">  -</span> 项目 2b
+</pre></table></code></div></div><ul><li>项目 1<li>项目 2<ul><li>项目 2a<li>项目 2b</ul><li>项目 1<li>项目 2<ul><li>项目 2a<li>项目 2b</ul></ul><h4 id="有序列表">有序列表</h4><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre><td class="rouge-code"><pre><span class="p">1.</span> 项目 1
+<span class="p">2.</span> 项目 2
+<span class="p">3.</span> 项目 3
+<span class="p">   1.</span> 项目 3a
+<span class="p">   2.</span> 项目 3b
+</pre></table></code></div></div><ol><li>项目 1<li>项目 2<li>项目 3<ol><li>项目 3a<li>项目 3b</ol></ol><h3 id="图片">图片</h3><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre><td class="rouge-code"><pre><span class="p">![</span><span class="nv">头像</span><span class="p">](</span><span class="sx">/assets/img/bio-photo.jpg</span><span class="p">)</span>
+
+格式：!<span class="p">[</span><span class="nv">替代文字</span><span class="p">](</span><span class="sx">url</span><span class="p">)</span>
+</pre></table></code></div></div><p><strong>说明</strong>：加载不到 url 中的图片时，会用替代文字作为显示内容</p><p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/assets/img/bio-photo.jpg" alt="头像" /></p><h3 id="链接">链接</h3><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre><td class="rouge-code"><pre><span class="p">[</span><span class="nv">GitHub</span><span class="p">](</span><span class="sx">http://github.com</span><span class="p">)</span>
+</pre></table></code></div></div><p><a href="http://github.com">GitHub</a></p><h3 id="引用">引用</h3><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre><td class="rouge-code"><pre>子曰：
+<span class="gt">
+&gt; 学而时习之，不亦说乎？</span>
+<span class="gt">&gt; 有朋自远方来，不亦乐乎？</span>
+<span class="gt">&gt; 人不知而不愠，不亦君子乎？</span>
+</pre></table></code></div></div><p>子曰：</p><blockquote><p>学而时习之，不亦说乎？ 有朋自远方来，不亦乐乎？ 人不知而不愠，不亦君子乎？</p></blockquote><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre><td class="rouge-code"><pre><span class="gt">&gt; 我是引用</span>
+<span class="gt">&gt; &gt; 我是嵌套引用</span>
+<span class="gt">&gt; &gt; &gt; 我是嵌套的嵌套</span>
+<span class="gt">&gt; </span>
+<span class="gt">&gt; 结束</span>
+</pre></table></code></div></div><blockquote><p>我是引用</p><blockquote><p>我是嵌套引用</p><blockquote><p>我是嵌套的嵌套</p></blockquote></blockquote><p>结束</p></blockquote><h3 id="行内代码">行内代码</h3><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre><td class="rouge-code"><pre>你可以使用 <span class="sb">`print`</span> 来打印输出
+</pre></table></code></div></div><p>你可以使用 <code class="language-plaintext highlighter-rouge">print</code> 来打印输出</p><h3 id="水平线">水平线</h3><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre><td class="rouge-code"><pre><span class="p">***
+* * *
+********</span>
+<span class="p">---
+- - -
+--------
+</span></pre></table></code></div></div><hr /><hr /><hr /><hr /><hr /><hr /><h3 id="github-flavored-markdown">GitHub Flavored Markdown</h3><p><code class="language-plaintext highlighter-rouge">GitHub.com</code> 使用了自己版本的 <code class="language-plaintext highlighter-rouge">Markdown</code> 语法，它提供了一套额外的有用功能，其中许多功能使 <code class="language-plaintext highlighter-rouge">GitHub.com</code> 上的内容更容易使用。</p><p>请注意，<code class="language-plaintext highlighter-rouge">GitHub Flavored Markdown</code> 的一些特性只在 <code class="language-plaintext highlighter-rouge">Issues</code> 和 <code class="language-plaintext highlighter-rouge">Pull Requests</code> 的 descriptions 和 comments 中可用。这些包括 <code class="language-plaintext highlighter-rouge">@mentions</code> 以及对 <code class="language-plaintext highlighter-rouge">SHA-1 hashes</code>、<code class="language-plaintext highlighter-rouge">Issues</code> 和 <code class="language-plaintext highlighter-rouge">Pull Requests</code> 的引用。<code class="language-plaintext highlighter-rouge">Task Lists</code> 也可以在 <code class="language-plaintext highlighter-rouge">Gist comments</code> 和 <code class="language-plaintext highlighter-rouge">Gist Markdown</code> 文件中使用。</p><h4 id="代码块及语法高亮">代码块及语法高亮</h4><p><strong>方式1：</strong> 用反引号<code>```</code>包括</p><div class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre><td class="rouge-code"><pre>```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+</pre></table></code></div></div><div class="language-javascript highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre><td class="rouge-code"><pre><span class="kd">function</span> <span class="nx">fancyAlert</span><span class="p">(</span><span class="nx">arg</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span><span class="p">(</span><span class="nx">arg</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">$</span><span class="p">.</span><span class="nx">facebox</span><span class="p">({</span><span class="na">div</span><span class="p">:</span><span class="dl">'</span><span class="s1">#foo</span><span class="dl">'</span><span class="p">})</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</pre></table></code></div></div><p><strong>方式2：</strong> 用4个空格缩进</p><div class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre><td class="rouge-code"><pre>    function fancyAlert(arg) {
+      if(arg) {
+        $.facebox({div:'#foo'})
+      }
+    }
+</pre></table></code></div></div><div class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre><td class="rouge-code"><pre>function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+</pre></table></code></div></div><h4 id="任务列表">任务列表</h4><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre><td class="rouge-code"><pre><span class="p">*</span> [x] 完成项
+<span class="p">*</span> [ ] 未完成项目
+<span class="p">
+-</span> [x] 完成项
+<span class="p">-</span> [ ] 未完成项目
+<span class="p">
+1.</span> [x] 完成项
+<span class="p">2.</span> [ ] 未完成项目
+</pre></table></code></div></div><ul class="task-list"><li class="task-list-item" hide-bullet><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />完成项<li class="task-list-item"><p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />未完成项目</p><li class="task-list-item" hide-bullet><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />完成项<li class="task-list-item" hide-bullet><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />未完成项目</ul><ol class="task-list"><li class="task-list-item" hide-bullet><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />完成项<li class="task-list-item" hide-bullet><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />未完成项目</ol><h4 id="表格">表格</h4><p>表头和内容可以用连字符 <code class="language-plaintext highlighter-rouge">-</code> 分割，一个或多个连字符都可以。每列可用 <code class="language-plaintext highlighter-rouge">|</code> 分割。每行开头和结尾可以没有<code class="language-plaintext highlighter-rouge">|</code></p><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre><td class="rouge-code"><pre>| 表头1 | 表头2 |
+| ----- | ----- |
+| 内容1 | 内容2 |
+| 列1   | 列2   |
+</pre></table></code></div></div><div class="table-wrapper"><table><thead><tr><th>表头1<th>表头2<tbody><tr><td>内容1<td>内容2<tr><td>列1<td>列2</table></div><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre><td class="rouge-code"><pre>| 左对齐    |   居中    |    右对齐 |
+| :-------- | :-------: | --------: |
+| 我是内容1 | 我是内容2 | 我是内容3 |
+| 列1       |    列2    |       列3 |
+</pre></table></code></div></div><div class="table-wrapper"><table><thead><tr><th style="text-align: left">左对齐<th style="text-align: center">居中<th style="text-align: right">右对齐<tbody><tr><td style="text-align: left">我是内容1<td style="text-align: center">我是内容2<td style="text-align: right">我是内容3<tr><td style="text-align: left">列1<td style="text-align: center">列2<td style="text-align: right">列3</table></div><h4 id="sha-引用">SHA 引用</h4><p>对 <code class="language-plaintext highlighter-rouge">commit</code> 的 <code class="language-plaintext highlighter-rouge">SHA-1 hash</code>的引用将自动转换为 <code class="language-plaintext highlighter-rouge">GitHub</code> 上提交的链接。</p><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre><td class="rouge-code"><pre>16c999e8c71134401a78d4d46435517b2271d6ac
+mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
+mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
+</pre></table></code></div></div><p>16c999e8c71134401a78d4d46435517b2271d6ac mojombo@16c999e8c71134401a78d4d46435517b2271d6ac mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac</p><h4 id="仓库内-issue-引用">仓库内 Issue 引用</h4><p>任何涉及 <code class="language-plaintext highlighter-rouge">Issue</code> 或 <code class="language-plaintext highlighter-rouge">Pull Request</code> 的数字都会自动转换为链接。</p><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre><td class="rouge-code"><pre><span class="gh">#1</span>
+mojombo#1
+mojombo/github-flavored-markdown#1
+</pre></table></code></div></div><h4 id="用户名-mentions">用户名 @mentions</h4><p>输入<code class="language-plaintext highlighter-rouge">@</code>符号，然后输入用户名，就会通知那个人来查看评论。这被称为<code class="language-plaintext highlighter-rouge">@mention</code>，因为你提到了个人。你也可以 <code class="language-plaintext highlighter-rouge">@mention</code> 一个组织中的团队。</p><h4 id="对-urls-的自动链接">对 URLs 的自动链接</h4><p>任何 URL(比如 http://www.github.com/ )都会自动转换为一个可点击的链接。</p><h4 id="删除线">删除线</h4><p>任何用两个波浪线包裹的单词(像 <code class="language-plaintext highlighter-rouge">~~this~~</code>)将被划掉。</p><p><del>this</del></p><h4 id="emoji">Emoji</h4><p>GitHub 支持 <a href="https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax#using-emoji">emoji</a>!</p><p>查看 GitHub 支持的图片列表：<a href="https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md">Emoji Cheat Sheet</a></p><p>若在 jekyll中使用，需要安装插件,详见<a href="https://github.com/jekyll/github-metadata">jemoji</a></p><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+</pre><td class="rouge-code"><pre>:cn:
+
+:sunglasses:
+:smirk_cat:
+:see_no_evil:
+
+:+1:
+:thumbsup:
+
+:-1:
+:thumbsdown:
+
+:couplekiss_man_woman:
+
+:capricorn:
+:snake:
+</pre></table></code></div></div><p>:cn:</p><p>:sunglasses: :smirk_cat: :see_no_evil:</p><p>:+1: :thumbsup:</p><p>:-1: :thumbsdown:</p><p>:couplekiss_man_woman:</p><p>:capricorn: :snake:</p><h3 id="kramdown-扩展">kramdown 扩展</h3><h4 id="数学块">数学块</h4><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+</pre><td class="rouge-code"><pre>$$
+<span class="se">\b</span>egin{aligned}
+  &amp; <span class="se">\p</span>hi(x,y) = <span class="se">\p</span>hi <span class="se">\l</span>eft(<span class="se">\s</span>um_{i=1}^n x_ie_i, <span class="se">\s</span>um_{j=1}^n y_je_j <span class="se">\r</span>ight)
+  = <span class="se">\s</span>um_{i=1}^n <span class="se">\s</span>um_{j=1}^n x_i y_j <span class="se">\p</span>hi(e_i, e_j) = <span class="se">\\</span>
+  &amp; (x_1, <span class="se">\l</span>dots, x_n) <span class="se">\l</span>eft( <span class="se">\b</span>egin{array}{ccc}
+      <span class="se">\p</span>hi(e_1, e_1) &amp; <span class="se">\c</span>dots &amp; <span class="se">\p</span>hi(e_1, e_n) <span class="se">\\</span>
+      <span class="se">\v</span>dots &amp; <span class="se">\d</span>dots &amp; <span class="se">\v</span>dots <span class="se">\\</span>
+      <span class="se">\p</span>hi(e_n, e_1) &amp; <span class="se">\c</span>dots &amp; <span class="se">\p</span>hi(e_n, e_n)
+    <span class="se">\e</span>nd{array} <span class="se">\r</span>ight)
+  <span class="se">\l</span>eft( <span class="se">\b</span>egin{array}{c}
+      y_1 <span class="se">\\</span>
+      <span class="se">\v</span>dots <span class="se">\\</span>
+      y_n
+    <span class="se">\e</span>nd{array} <span class="se">\r</span>ight)
+<span class="se">\e</span>nd{aligned}
+$$
+</pre></table></code></div></div>\[\begin{aligned} &amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\ &amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc} \phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\ \vdots &amp; \ddots &amp; \vdots \\ \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n) \end{array} \right) \left( \begin{array}{c} y_1 \\ \vdots \\ y_n \end{array} \right) \end{aligned}\]<h4 id="行内公式">行内公式</h4><p>MathJax 不建议行内公式用 <code class="language-plaintext highlighter-rouge">$...$</code> 作为定界符。而是采用<code class="language-plaintext highlighter-rouge">\(...\) </code>，但我的文档中很少有美元符号，所以还是习惯用 <code class="language-plaintext highlighter-rouge">$...$</code> 作为定界符。<a href="https://docs.mathjax.org/en/latest/input/tex/delimiters.html">如何开启行内美元定界符？</a></p><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre><td class="rouge-code"><pre>未知数 $x$ 的值是多少呢？
+</pre></table></code></div></div><p>未知数 $x$ 的值是多少呢？</p><h4 id="定义">定义</h4><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre><td class="rouge-code"><pre>术语1
+: 定义
+: 另一个定义
+</pre></table></code></div></div><dl><dt>术语1<dd>定义<dd>另一个定义</dl><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre><td class="rouge-code"><pre>术语2
+术语2别名
+: 术语2定义
+</pre></table></code></div></div><dl><dt>术语2<dt>术语2别名<dd>术语2定义</dl><p>如果你在定义前插入一个空行(注意:术语和第一个定义之间只能有一个空行)，定义将被包装在一个段落中:</p><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre><td class="rouge-code"><pre>术语3
+
+: 术语3
+: 术语3
+</pre></table></code></div></div><dl><dt>术语3<dd><p>术语3</p><dd>术语3</dl><h4 id="脚注">脚注</h4><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre><td class="rouge-code"><pre>我是一段带有脚注的文本[^1].
+
+<span class="p">[</span><span class="ss">^1</span><span class="p">]:</span> <span class="sx">我是定义.</span>
+</pre></table></code></div></div><p>我是一段带有脚注的文本<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>.</p><p>脚注定义可以包含任何块级元素，在脚注定义之后的所有行（以四个空格或一个制表符缩进）都属于该定义：</p><div class="language-markdown highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre><td class="rouge-code"><pre>我是另一段带有脚注的文本[^2].
+
+<span class="p">[</span><span class="ss">^2</span><span class="p">]:</span> <span class="sx">我是定义2</span>
+<span class="gt">    &gt; 我是定义2的引用</span>
+</pre></table></code></div></div><p>我是另一段带有脚注的文本<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup>.</p><div class="footnotes" role="doc-endnotes"><ol><li id="fn:1" role="doc-endnote"><p>我是定义. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p><li id="fn:2" role="doc-endnote"><p>我是定义2</p><blockquote><p>我是定义2的引用</p></blockquote><p><a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p></ol></div></div><div class="post-tail-wrapper text-muted"><div class="post-meta mb-3"> <i class="far fa-folder-open fa-fw mr-1"></i> <a href='/categories/%E5%B7%A5%E5%85%B7/'>工具</a></div><div class="post-tags"> <i class="fa fa-tags fa-fw mr-1"></i> <a href="/tags/markdown/" class="post-tag no-text-decoration" >markdown</a></div><div class="post-tail-bottom d-flex justify-content-between align-items-center mt-3 pt-5 pb-2"><div class="license-wrapper"> This post is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> by the author.</div><div class="share-wrapper"> <span class="share-label text-muted mr-1">Share</span> <span class="share-icons"> <a href="https://twitter.com/intent/tweet?text=Markdown 语法参考 - 徐高亮&url=https://xugaoliang.github.io/posts/Markdown%E8%AF%AD%E6%B3%95/" data-toggle="tooltip" data-placement="top" title="Twitter" target="_blank" rel="noopener" aria-label="Twitter"> <i class="fa-fw fab fa-twitter"></i> </a> <a href="https://www.facebook.com/sharer/sharer.php?title=Markdown 语法参考 - 徐高亮&u=https://xugaoliang.github.io/posts/Markdown%E8%AF%AD%E6%B3%95/" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank" rel="noopener" aria-label="Facebook"> <i class="fa-fw fab fa-facebook-square"></i> </a> <a href="https://telegram.me/share?text=Markdown 语法参考 - 徐高亮&url=https://xugaoliang.github.io/posts/Markdown%E8%AF%AD%E6%B3%95/" data-toggle="tooltip" data-placement="top" title="Telegram" target="_blank" rel="noopener" aria-label="Telegram"> <i class="fa-fw fab fa-telegram"></i> </a> <i class="fa-fw fas fa-link small" onclick="copyLink()" data-toggle="tooltip" data-placement="top" title="Copy link"></i> </span></div></div></div></div></div><div id="panel-wrapper" class="col-xl-3 pl-2 text-muted topbar-down"><div class="access"><div id="access-lastmod" class="post"> <span>Recent Update</span><ul class="post-content pl-0 pb-1 ml-1 mt-2"><li><a href="/posts/%E5%8A%A8%E6%89%8B%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/">动手学深度学习</a><li><a href="/posts/LaTeX/">LaTex</a></ul></div><div id="access-tags"> <span>Trending Tags</span><div class="d-flex flex-wrap mt-3 mb-1 mr-3"> <a class="post-tag" href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/">深度学习</a> <a class="post-tag" href="/tags/latex/">LaTex</a> <a class="post-tag" href="/tags/markdown/">markdown</a> <a class="post-tag" href="/tags/%E4%B9%A6%E5%8D%95/">书单</a> <a class="post-tag" href="/tags/%E5%86%99%E4%BD%9C/">写作</a> <a class="post-tag" href="/tags/%E5%9B%BE%E5%83%8F/">图像</a> <a class="post-tag" href="/tags/%E6%A8%A1%E5%9E%8B/">模型</a> <a class="post-tag" href="/tags/%E8%AE%BA%E6%96%87/">论文</a> <a class="post-tag" href="/tags/%E8%B0%83%E5%8F%82/">调参</a></div></div></div><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.js"></script><div id="toc-wrapper" class="pl-0 pr-4 mb-5"> <span class="pl-3 pt-2 mb-2">Contents</span><nav id="toc" data-toggle="toc"></nav></div></div></div><div class="row"><div class="col-12 col-lg-11 col-xl-8"><div id="post-extend-wrapper" class="pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-4 pr-md-4"><div id="related-posts" class="mt-5 mb-2 mb-sm-4"><h3 class="pt-2 mt-1 mb-4 ml-1" data-toc-skip>Further Reading</h3><div class="card-deck mb-4"><div class="card"> <a href="/posts/LaTeX/"><div class="card-body"> <span class="timeago small" > Nov 16, 2019 <i class="unloaded">2019-11-16T21:38:00+08:00</i> </span><h3 class="pt-0 mt-1 mb-3" data-toc-skip>LaTex</h3><div class="text-muted small"><p> 主要符号一览 数 符号 表达式 说明 $x$ $x$ 标量 $\boldsymbol{x}$ $\boldsymbol{x}$ 向量 $\boldsymbol{X}$ ...</p></div></div></a></div><div class="card"> <a href="/posts/%E6%92%B0%E5%86%99%E6%96%87%E7%AB%A0/"><div class="card-body"> <span class="timeago small" > Mar 16 <i class="unloaded">2021-03-16T13:37:50+08:00</i> </span><h3 class="pt-0 mt-1 mb-3" data-toc-skip>撰写文章</h3><div class="text-muted small"><p> 原文章地址：https://chirpy.cotes.info/posts/write-a-new-post/ 命名与路径 创建一个名为 YYYY-MM-DD-TITLE.EXTENSION 的新文件，并将其放在根目录的 _posts/ 文件夹中。请注意，EXTENSION 必须为 md 或 markdown 。 Front Matter 基本上，您需要在帖子顶部按以下方式填写 Fr...</p></div></div></a></div><div class="card"> <a href="/posts/%E5%8A%A8%E6%89%8B%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"><div class="card-body"> <span class="timeago small" > Mar 17 <i class="unloaded">2021-03-17T13:23:00+08:00</i> </span><h3 class="pt-0 mt-1 mb-3" data-toc-skip>动手学深度学习</h3><div class="text-muted small"><p> 本书目的： 前言 应用深度学习需要同时理解： 问题的动机和特点； 将大量不同类型神经网络层通过特定方式组合在一起的模型背后的数学原理； 在原始数据上拟合极复杂的深层模型的优化算法； 有效训练模型、避免数值计算陷阱以及充分利用硬件性能所需的工程技能； 为解决方案挑选合适的变量（超参数）组合的经验。 本书代表了我们的一种尝试：我们将教给读者概念、背景知识和代码；我...</p></div></div></a></div></div></div><div class="post-navigation d-flex justify-content-between"> <a href="/posts/LaTeX/" class="btn btn-outline-primary" prompt="Older"><p>LaTex</p></a> <a href="/posts/ResNet-%E8%AF%91/" class="btn btn-outline-primary" prompt="Newer"><p>ResNet【译】</p></a></div></div></div></div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script> <script type="text/javascript"> const imgs = document.querySelectorAll('.post-content img'); const observer = lozad(imgs); observer.observe(); </script><footer class="d-flex w-100 justify-content-center"><div class="d-flex justify-content-between align-items-center"><div class="footer-left"><p class="mb-0"> © 2021 <a href="https://twitter.com/username">徐高亮</a>. <span data-toggle="tooltip" data-placement="top" title="Except where otherwise noted, the blog posts on this site are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author."> Some rights reserved. </span></p></div><div class="footer-right"><p class="mb-0"> Powered by <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> with <a href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank" rel="noopener">Chirpy</a> theme.</p></div></div></footer></div><div id="search-result-wrapper" class="d-flex justify-content-center unloaded"><div class="col-12 col-sm-11 post-content"><div id="search-hints"><h4 class="text-muted mb-4">Trending Tags</h4><a class="post-tag" href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/">深度学习</a> <a class="post-tag" href="/tags/latex/">LaTex</a> <a class="post-tag" href="/tags/markdown/">markdown</a> <a class="post-tag" href="/tags/%E4%B9%A6%E5%8D%95/">书单</a> <a class="post-tag" href="/tags/%E5%86%99%E4%BD%9C/">写作</a> <a class="post-tag" href="/tags/%E5%9B%BE%E5%83%8F/">图像</a> <a class="post-tag" href="/tags/%E6%A8%A1%E5%9E%8B/">模型</a> <a class="post-tag" href="/tags/%E8%AE%BA%E6%96%87/">论文</a> <a class="post-tag" href="/tags/%E8%B0%83%E5%8F%82/">调参</a></div><div id="search-results" class="d-flex flex-wrap justify-content-center text-muted mt-3"></div></div></div></div><div id="mask"></div><a id="back-to-top" href="#" aria-label="back-to-top" class="btn btn-lg btn-box-shadow" role="button"> <i class="fas fa-angle-up"></i> </a> <script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.7.3/dest/simple-jekyll-search.min.js"></script> <script> SimpleJekyllSearch({ searchInput: document.getElementById('search-input'), resultsContainer: document.getElementById('search-results'), json: '/assets/js/data/search.json', searchResultTemplate: '<div class="pl-1 pr-1 pl-sm-2 pr-sm-2 pl-lg-4 pr-lg-4 pl-xl-0 pr-xl-0"> <a href="https://xugaoliang.github.io{url}">{title}</a><div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1"> {categories} {tags}</div><p>{snippet}</p></div>', noResultsText: '<p class="mt-5">Oops! No result founds.</p>', templateMiddleware: function(prop, value, template) { if (prop === 'categories') { if (value === '') { return `${value}`; } else { return `<div class="mr-sm-4"><i class="far fa-folder fa-fw"></i>${value}</div>`; } } if (prop === 'tags') { if (value === '') { return `${value}`; } else { return `<div><i class="fa fa-tag fa-fw"></i>${value}</div>`; } } } }); </script>
