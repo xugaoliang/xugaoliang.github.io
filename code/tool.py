@@ -23,7 +23,7 @@ def get_markdown_list(name):
     g = os.walk(f'{name}/')
     for dirpath, dirnames, filenames in g:
         tmp = dirpath.strip("/").split("/")
-        l = len(tmp)+1
+        l = len(tmp)
         t = f"{'  '*(l-1)}*"
         n = tmp[-1]
         result += f"{t} {n}\n\n"
