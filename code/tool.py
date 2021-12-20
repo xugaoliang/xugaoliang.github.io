@@ -23,9 +23,10 @@ def get_markdown_list(name):
     g = os.walk(f'{name}/')
     for dirpath, dirnames, filenames in g:
         tmp = dirpath.strip("/").split("/")
-        l = "#"*(len(tmp)+1)
+        l = len(tmp)+1
+        t = f"{'  '*(l-1)}*"
         n = tmp[-1]
-        result += f"{l} {n}\n\n"
+        result += f"{t} {n}\n\n"
 
         filenames = sorted(filenames)
         for filename in filenames:
@@ -34,7 +35,7 @@ def get_markdown_list(name):
                 n = get_file_name(filename)
                 # n = filename[:-3].replace(" ","&nbsp;")
                 # p = filepath.replace(" ","&nbsp;")
-                result += f"* [{n}]({p})\n"
+                result += f"{'  '*l}* [{n}]({p})\n"
 
         result += "\n"
     return result
