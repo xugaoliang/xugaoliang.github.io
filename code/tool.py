@@ -62,7 +62,7 @@ def create_summary():
         write_content(f, """
 # 成长
 
-* [序言](README.md)
+* [简介](README.md)
 
 """)
 
