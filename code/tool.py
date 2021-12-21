@@ -34,11 +34,11 @@ def get_markdown_list(name):
         tmp = dirpath.strip("/").split("/")
         l = len(tmp)
         n = tmp[-1]
-        if n == name:
+        if False:  # n == name:
             result += f"## {n}\n\n"
         else:
-            # t = f"{'  '*(l-1)}*"
-            t = f"{'  '*(l-2)}*"
+            t = f"{'  '*(l-1)}*"
+            # t = f"{'  '*(l-2)}*"
             result += f"{t} {n}\n\n"
 
         filenames = sorted(filenames)
@@ -46,8 +46,8 @@ def get_markdown_list(name):
             if filename.endswith('.md'):
                 p = os.path.join(dirpath, filename)
                 n = get_file_name(filename)
-                # result += f"{'  '*l}* [{n}]({p})\n"
-                result += f"{'  '*(l-1)}* [{n}]({p})\n"
+                result += f"{'  '*l}* [{n}]({p})\n"
+                # result += f"{'  '*(l-1)}* [{n}]({p})\n"
 
         result += "\n"
     return result
