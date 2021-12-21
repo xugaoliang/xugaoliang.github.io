@@ -8,6 +8,7 @@
   * [LaTeX](工具/2019-11-16-LaTeX.md)
   * [Markdown语法](工具/2019-11-16-Markdown语法.md)
   * [撰写文章](工具/2021-03-16-撰写文章.md)
+  * [gitbook](工具/2021-12-21-gitbook.md)
 
 * 读书
 
