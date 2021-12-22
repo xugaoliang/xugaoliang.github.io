@@ -68,6 +68,7 @@ def create_summary():
 
         write_content(f, get_markdown_list("工具"))
         write_content(f, get_markdown_list("读书"))
+        write_content(f, get_markdown_list("数学"))
         write_content(f, get_markdown_list("AI"))
         write_content(f, get_markdown_list("理财"))
         write_content(f, get_markdown_list("健康"))
