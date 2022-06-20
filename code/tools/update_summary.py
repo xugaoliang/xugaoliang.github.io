@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # _*_ coding: utf-8 _*_
-'''
+"""
 Created on 2018-09-23 18:15:49
 @author: wind
-'''
+"""
 
 import argparse
 import os
@@ -20,14 +20,14 @@ def get_file_name(filename):
 
 def has_md(filenames):
     for f in filenames:
-        if f.endswith('.md'):
+        if f.endswith(".md"):
             return True
     return False
 
 
 def get_markdown_list(name):
     result = ""
-    g = os.walk(f'{name}/')
+    g = os.walk(f"{name}/")
     for dirpath, dirnames, filenames in g:
         if not has_md(filenames):
             continue
@@ -43,7 +43,7 @@ def get_markdown_list(name):
 
         filenames = sorted(filenames)
         for filename in filenames:
-            if filename.endswith('.md'):
+            if filename.endswith(".md"):
                 p = os.path.join(dirpath, filename)
                 n = get_file_name(filename)
                 result += f"{'  '*l}* [{n}]({p})\n"
@@ -58,13 +58,16 @@ def write_content(file_handle, content):
 
 
 def create_summary():
-    with open('./SUMMARY.md', 'w', encoding='utf-8') as f:
-        write_content(f, """
+    with open("./SUMMARY.md", "w", encoding="utf-8") as f:
+        write_content(
+            f,
+            """
 # 成长
 
 * [简介](README.md)
 
-""")
+""",
+        )
 
         write_content(f, get_markdown_list("工具"))
         write_content(f, get_markdown_list("读书"))
@@ -72,8 +75,8 @@ def create_summary():
         write_content(f, get_markdown_list("AI"))
         write_content(f, get_markdown_list("理财"))
         write_content(f, get_markdown_list("健康"))
-        write_content(f, get_markdown_list("日记"))
-        # write_content(f, "* 日记（不显示）\n")
+        # write_content(f, get_markdown_list("日记"))
+        write_content(f, "* 日记（不显示）\n")
         write_content(f, get_markdown_list("草稿"))
 
 
@@ -85,7 +88,7 @@ def main():
     create_summary()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
 
 
