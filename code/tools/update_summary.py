@@ -76,7 +76,7 @@ def create_summary():
         write_content(f, get_markdown_list("理财"))
         write_content(f, get_markdown_list("健康"))
         # write_content(f, get_markdown_list("日记"))
-        write_content(f, "* 日记（不显示）\n")
+        # write_content(f, "* 日记（不显示）\n")
         write_content(f, get_markdown_list("草稿"))
 
 
