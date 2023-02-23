@@ -22,71 +22,10 @@
     * [统计自然语言处理](AI/机器学习/统计自然语言处理.md)
     * [资源](AI/机器学习/资源.md)
     * [问题](AI/机器学习/问题.md)
-  * 深度学习
-  * 强化学习
-  * 图像
-  * 语音
-    * [李宏毅语音课](AI/语音/2022-08-20-李宏毅语音课.md)
-  * NLP
-  * 论文
-    * [论文列表](AI/论文/论文列表.md)
-* 健康
-* 理财
-* 工具
-  * [LaTeX](工具/2019-11-16-LaTeX.md)
-  * [Markdown语法](工具/2019-11-16-Markdown语法.md)
-  * [撰写文章](工具/2021-03-16-撰写文章.md)
-  * [gitbook](工具/2021-12-21-gitbook.md)
-  * [一些资源](工具/一些资源.md)
-  * [不错的项目](工具/不错的项目.md)
-  * [专有词汇](工具/专有词汇.md)
-  * [待看文章](工具/待看文章.md)
-  * [杂货铺](工具/杂货铺.md)
-  * [网站](工具/网站.md)
-
-
-* 数学
-
-* AI
-
-  * [对建模的理解【进行中】](AI/2021-03-17-对建模的理解【进行中】.md)
-  * [调参问题总结【进行中】](AI/2021-03-17-调参问题总结【进行中】.md)
-  * [AI总结【进行中】](AI/2021-03-20-AI总结【进行中】.md)
-  * [AIStudio相关](AI/2021-07-27-AIStudio相关.md)
-  * [AI概念](AI/2021-07-27-AI概念.md)
-  * [python相关](AI/2021-07-27-python相关.md)
-
-  * 机器学习
-
-  * 语音
-
-
-  * 模型
-
-    * [Attention](AI/模型/Attention.md)
-    * [BERT-wwm](AI/模型/BERT-wwm.md)
-    * [BERT](AI/模型/BERT.md)
-    * [ELMo](AI/模型/ELMo.md)
-    * [FastText](AI/模型/FastText.md)
-    * [GPT](AI/模型/GPT.md)
-    * [HAN](AI/模型/HAN.md)
-    * [LSTM](AI/模型/LSTM.md)
-    * [MASS](AI/模型/MASS.md)
-    * [RNN](AI/模型/RNN.md)
-    * [Seq2Seq](AI/模型/Seq2Seq.md)
-    * [TextCNN](AI/模型/TextCNN.md)
-    * [Transformer-XL](AI/模型/Transformer-XL.md)
-    * [Transformer](AI/模型/Transformer.md)
-    * [Universal_Transformers](AI/模型/Universal_Transformers.md)
-    * [XLNet](AI/模型/XLNet.md)
-    * [word2vec](AI/模型/word2vec.md)
-
   * 基础
-
     * [GloVe](AI/基础/GloVe.md)
     * [Huffman编码](AI/基础/Huffman编码.md)
     * [IMDB](AI/基础/IMDB.md)
-    * [N元语法](AI/基础/N元语法.md)
     * [THUCNews](AI/基础/THUCNews.md)
     * [one-hot](AI/基础/one-hot.md)
     * [分词](AI/基础/分词.md)
@@ -95,9 +34,7 @@
     * [熵](AI/基础/熵.md)
     * [特征抽取](AI/基础/特征抽取.md)
     * [负采样算法](AI/基础/负采样算法.md)
-
   * 深度学习
-
     * [1_学习内容推荐](AI/深度学习/1_学习内容推荐.md)
     * [2_感知机](AI/深度学习/2_感知机.md)
     * [BP神经网络](AI/深度学习/BP神经网络.md)
@@ -111,9 +48,38 @@
     * [循环神经网络(RNN)](AI/深度学习/循环神经网络(RNN).md)
     * [杂](AI/深度学习/杂.md)
     * [梯度消失和爆炸的解决](AI/深度学习/梯度消失和爆炸的解决.md)
-
+    * 卷积
+    * 
+    * 序列
+    * [RNN](AI/模型/RNN.md)
+    * [LSTM](AI/模型/LSTM.md)
+    * [Seq2Seq](AI/模型/Seq2Seq.md)
+    * 
+    * [ELMo](AI/模型/ELMo.md)
+    * [HAN](AI/模型/HAN.md)
+    * [MASS](AI/模型/MASS.md)
+    * 注意力
+    * [Attention](AI/模型/Attention.md)
+    * [Transformer](AI/模型/Transformer.md)
+    * [Transformer-XL](AI/模型/Transformer-XL.md)
+    * [Universal_Transformers](AI/模型/Universal_Transformers.md)
+    * [XLNet](AI/模型/XLNet.md)
+  * 强化学习
+  * 图像
+  * 语音
+    * [李宏毅语音课](AI/语音/2022-08-20-李宏毅语音课.md)
+  * NLP
+    * 
+    * [N元语法](AI/基础/N元语法.md)
+    * 
+    * [TextCNN](AI/模型/TextCNN.md)
+    * [word2vec](AI/模型/word2vec.md)
+    * [FastText](AI/模型/FastText.md)
+    * [BERT-wwm](AI/模型/BERT-wwm.md)
+    * [BERT](AI/模型/BERT.md)
+    * [GPT](AI/模型/GPT.md)
   * 论文
-
+    * [论文列表](AI/论文/论文列表.md)
     * [ResNet【译】](AI/论文/2020-10-25-ResNet【译】.md)
     * [GE2E_分享](AI/论文/GE2E_分享.md)
     * [Jasper_分享](AI/论文/Jasper_分享.md)
@@ -140,8 +106,15 @@
     * [【译】降噪远程监督开放域问答](AI/论文/【译】降噪远程监督开放域问答.md)
     * [【译】面向任务的对话系统的可转移多域状态生成器](AI/论文/【译】面向任务的对话系统的可转移多域状态生成器.md)
 
+  * 杂
+    * [对建模的理解【进行中】](AI/2021-03-17-对建模的理解【进行中】.md)
+    * [调参问题总结【进行中】](AI/2021-03-17-调参问题总结【进行中】.md)
+    * [AI总结【进行中】](AI/2021-03-20-AI总结【进行中】.md)
+    * [AIStudio相关](AI/2021-07-27-AIStudio相关.md)
+    * [AI概念](AI/2021-07-27-AI概念.md)
+    * [python相关](AI/2021-07-27-python相关.md)
+* 健康
 * 理财
-
   * [A股投资方法](理财/2021-04-22-A股投资方法.md)
   * [太极图中的财务自由智慧](理财/2021-04-22-太极图中的财务自由智慧.md)
   * [理财](理财/2021-04-22-理财.md)
@@ -150,6 +123,17 @@
   * [必定实现财务自由的十大步骤](理财/2021-05-02-必定实现财务自由的十大步骤.md)
   * [指数基金投资方法](理财/2021-05-03-指数基金投资方法.md)
   * [理财常识](理财/2021-06-27-理财常识.md)
+* 工具
+  * [LaTeX](工具/2019-11-16-LaTeX.md)
+  * [Markdown语法](工具/2019-11-16-Markdown语法.md)
+  * [撰写文章](工具/2021-03-16-撰写文章.md)
+  * [gitbook](工具/2021-12-21-gitbook.md)
+  * [一些资源](工具/一些资源.md)
+  * [不错的项目](工具/不错的项目.md)
+  * [专有词汇](工具/专有词汇.md)
+  * [待看文章](工具/待看文章.md)
+  * [杂货铺](工具/杂货铺.md)
+  * [网站](工具/网站.md)
 
 * 草稿
 
