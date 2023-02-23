@@ -2,11 +2,11 @@
 # 成长
 
 * [简介](README.md)
+* 数学
+  * [布朗运动](数学/2021-12-21-布朗运动.md)
+  * [鞅](数学/2021-12-22-鞅.md)
+  * [Hawkes](数学/2022-03-10-Hawkes.md)
 * AI
-  * 数学
-    * [布朗运动](数学/2021-12-21-布朗运动.md)
-    * [鞅](数学/2021-12-22-鞅.md)
-    * [Hawkes](数学/2022-03-10-Hawkes.md)
   * 机器学习
     * [LDA](AI/机器学习/LDA.md)
     * [SVM](AI/机器学习/SVM.md)
@@ -69,9 +69,7 @@
   * 语音
     * [李宏毅语音课](AI/语音/2022-08-20-李宏毅语音课.md)
   * NLP
-    * 
     * [N元语法](AI/基础/N元语法.md)
-    * 
     * [TextCNN](AI/模型/TextCNN.md)
     * [word2vec](AI/模型/word2vec.md)
     * [FastText](AI/模型/FastText.md)
