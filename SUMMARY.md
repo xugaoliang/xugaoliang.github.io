@@ -65,6 +65,7 @@
     * [Universal_Transformers](AI/模型/Universal_Transformers.md)
     * [XLNet](AI/模型/XLNet.md)
   * 强化学习
+    * [基本概念](AI/强化学习/基本概念.md)
   * 图像
   * 语音
     * [李宏毅语音课](AI/语音/2022-08-20-李宏毅语音课.md)
